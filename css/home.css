@@ -10,6 +10,7 @@ body {
     max-width: 1280px
 }
 
+/* ----------------fonts---------------- */
 @font-face {
     font-family: "Poppins-Bold', sans-serif";
     src: url('../fonts/Poppins-Bold.ttf');
@@ -24,6 +25,9 @@ body {
     font-family: "Poppins-ExtraLight', sans-serif";
     src: url('../fonts/Poppins-ExtraLight.ttf');
 }
+/* ----------------fonts---------------- */
+
+/* ----------------nav---------------- */
 
 .mf {
     font-family: "Poppins-Bold', sans-serif";
@@ -36,36 +40,69 @@ body {
     letter-spacing: 0px;
     text-align: left;
     align-items: center;
-    /* margin-top: 11px; */
-    color: #394149;
     font-size: medium;
-}
-
-.sst {
-    /* margin-left: 50%; */
 }
 
 .nav {
     background-color: white;
 }
 
+/* ----------------- */
+.hwr {
+    text-decoration: none;
+    color: #394149;
+}
+
+.hwr:hover {
+    cursor: pointer;
+    color: #0D1317;
+} 
+/* ----------------- */
 .bttn {
     font-family: "Poppins-Bold', sans-serif";
     color: #F58A07;
     margin-top: 6px;
-    /* margin-left: 0px; */
     position:absolute;
     width: 173px;
     height: 52px;
-    /* left: 1427px; */
     top: 10px; 
-    /* text-align: center; */
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
     border: none;
     justify-content: center;
     align-items: center;
 }
+
+
+.nav2 {
+    margin-left: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+}
+.nav1 {
+    margin-left: 12%;
+}
+.nav {
+    width: 1000px;
+    height:80px;
+    justify-content:space-between ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.pl {
+    width: auto;
+    height: auto;
+} 
+
+/* ----------------nav---------------- */
+
+/* ----------------header---------------- */
 
 .picturee {
     height: 703px;
@@ -76,48 +113,11 @@ body {
     background: #DCEAF5;
 }
 
-/* .hoyor {
-    position: absolute;
-    background: url(images/header-image.png) no-repeat;
-    z-index: 2;
-} */
-
-/* .yee {
-    margin-bottom: 0;
-/* }<---------------------------------------------------------------------------- asuuh */
 .neg {
     height: 439px;
     width: 576px;
     left: 320px;
     top: 201px;
-}
-
-.nav2 {
-    margin-left: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: -100px;
-    /* margin-top: 11px; */
-}
-.nav1 {
-    margin-left: 12%;
-}
-
-.pl {
-    width: auto;
-    height: auto;
-} 
-
-.nav {
-    width: 1000px;
-    height:80px;
-    justify-content:space-between ;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
 }
 
 .picturee {
@@ -133,7 +133,6 @@ body {
 .neg {
     display: flex;
     flex-direction: column;
-    /* align-items: center;     */
 }
 
 .neg1 {
@@ -149,7 +148,6 @@ body {
     font-family: "Poppins-Medium', sans-serif";
     color: #5B5B5B;
     font-size: 23px;
-    /* text-align: center; */
     margin-top: 15px;
 }
 
@@ -158,8 +156,6 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -190,7 +186,6 @@ body {
 
 .neg32 {
     margin-left: 60px;
-
 }
 
 .neg4 {
@@ -214,7 +209,6 @@ body {
     font-family: "Poppins-Bold', sans-serif";
     width: 600px;
     height: auto;
-    margin-top:100px;
     font-size: 23px;
     font-weight: 600;
     line-height: 56px;
@@ -230,16 +224,13 @@ body {
     width: 630px;
     height: auto;
     margin-top:30px;
-    /* margin-left: 120px; */
-    
 }
 
 .box1 {
     width: 100vw;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    margin-bottom: 238px; /* <---box2-toi dawhtsaad bsn bolohoor margin-g ogogdson margin deer nemew */
+    margin-bottom: 80px; /* <---box2-toi dawhtsaad bsn bolohoor margin-g ogogdson margin deer nemew */
 }
 .box1a {
     margin-left: auto;
@@ -251,13 +242,19 @@ body {
     flex-direction: column;
 }
 
+/* ----------------header---------------- */
+
+/* ----------------box1---------------- */
+
 .zuragnuud {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-/* ------------------------------------ */
+
+/* ---------------------------------- */
+
 .neeg {
     width: 400px;
     height: 230px;
@@ -285,6 +282,7 @@ body {
 .utga {
     font-family: "Poppins-Medium', sans-serif";
     height: 84px;
+    width: 336px;
     left: 321px;
     color: #5B5B5B;
     margin-top: 16px;
@@ -302,6 +300,10 @@ body {
     color:#F58A07;
     line-height: 106.5%;
 }
+
+/* ----------------box1---------------- */
+
+/* ----------------box2---------------- */
 
 .box2 {
     width: 100vw;
@@ -340,7 +342,6 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 100px;
-    /* justify-content: space-around; */
 }
 
 #onese {
@@ -388,20 +389,20 @@ body {
     margin-top: 20px;
 }
 
+/* ----------------box2---------------- */
+
+/* ----------------box3---------------- */
 
 .box3 {
     width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .fullbox {
     width: 1280px;
-    /* width: 70%; */
     height: auto;
-    /* background-color: #F58A07; */
     margin-top: 96px;
     margin-bottom: 96px;
     display: flex;
@@ -409,24 +410,24 @@ body {
 } 
 
 #contt {
-    width: 50%;
+    flex: 1;
+    padding-top: 67px;
 }
 
 #contt1 {
     font-family: "Poppins-Bold', sans-serif";
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 600;
     color: #0D1317;
-
-    /* line-height: 56px; */
-    /* letter-spacing: -0.03em; */
-    /* text-align: left; */
 }
 #contt h1 {
     padding-right: 5px;
 }
 
 #contt2 {
+    font-size: 18px;
+    width: 510px;
+    height: 120px;
     margin-top: 32px;
     margin-bottom: 48px;
     color: #5B5B5B;
@@ -462,6 +463,8 @@ body {
 }
 
 #ogulbr {
+    width: 270px;
+    height: 84px;
     font-family: "Poppins-Medium', sans-serif";
     font-style: normal;
     font-weight: 500;
@@ -474,87 +477,186 @@ body {
 padding-right: 5px;
 }
 
-/* 
+
 .ertt {
-    background: url(../images/about-image.png);
+    position: relative;
+    flex: 1;
+}
 
-    position: absolute;
-width: 1434.92px;
-height: 688.61px;
-
-
+#contt32 {
+    margin-right: 70px;
 }
 
 .pht1 {
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .ertt {
-    width: 20%;
     border-radius: 20px;
+}
+.durs1 {
+    position: absolute;
+    width: 153px;
+    height: 99%;
     background: #F58A07;
     mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
+    top: 0;
 }
 
-.ertt img {
-    border-radius: 20px;
+.durs2 {
     position: absolute;
-} */
-
-
-
-
-
-
-
-
-
-/* .ertt {
-    margin: 0;
-    width: 50%;
-    background-image: url(../images/about-image.png);
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    border-radius: 20px; 
-   
-} */
-/* .ertt img {
-    border-radius: 20px; 
-    width: 50%; 
-    width: 100%;
-    height: ;
-    object-fit:cover;
-} */
-
-/* #photo1 {
-    
-    background: #F58A07 url(../images/about-image.png);
-    background-blend-mode: multiply;
-    width: 50%;
-    height: 667px;
-    border-radius: 20px; 
-    width: 20%;
+    width: 120px;
+    height: 100%;
     background: #F58A07;
-    mix-blend-mode: overlay;
-    background-blend-mode: multiply;
-} */
+    mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
+    top: 0;
+}
 
+/* ----------------box3---------------- */
 
+/* ----------------box4---------------- */
 
+.box4 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.hohongo {
+
+    margin-bottom: 128px;
+    width: 1274px;
+    height: 682px;
+    background: #EDF7FF;
+    border-radius: 20px;
+}
+
+.baragnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ilugarah {
+    bottom: 15px;
+    left: 15px;
+    position: relative;
+}
+
+.gurabb {
+    margin-left: 48px;
+    margin-top: 48px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ubb {
+    width: 194px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 31px;
+    border: none;
+    font-family: "Poppins-Medium', sans-serif";
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #F58A07;
+
+} 
+
+.ubbb {
+    box-sizing: border-box;
+    width: 155px;
+    height: 40px;
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    font-family: "Poppins-Medium', sans-serif";
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: rgba(6, 50, 85, 0.3);
+    background: #EDF7FF;
+}
+.ubbbb {
+    box-sizing: border-box;
+    width: 183px;
+    height: 40px;
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    font-family: "Poppins-Medium', sans-serif";
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: rgba(6, 50, 85, 0.3);
+    background: #EDF7FF;
+}
+
+.hoyorhes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hoyorhes1 {
+    width: 50%;
+}
+
+.hoyorhes2 {
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 48px;
+ 
+}
+
+.borderr {
+    border-radius: 20px;
+}
+
+.rtf {
+    margin-left: 48px;
+    width: 572px;
+    height: 168px;
+    font-family: "Poppins-Bold', sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+.saaralj {
+    margin-left: 15px;
+    width: 510px;
+    height: 210px;
+    font-family: "Poppins-Medium', sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5B5B5B;
+}
+.zaiii {
+    margin-top: 20px;
+    
+}
+.zaiiii {
+    margin-left: 48px;
+    font-family: "Poppins-Medium', sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+
+/* ----------------box4---------------- */
+
+/* ----------------box5---------------- */
 
 .fulll {
     width: 100vw;
@@ -606,6 +708,10 @@ height: 688.61px;
     line-height: 106.5%;
 }
 
+/* ----------------box5---------------- */
+
+/* ----------------box6---------------- */
+
 .box6 {
     width: 100vw;
     display: flex;
@@ -619,7 +725,6 @@ height: 688.61px;
     margin-right: auto;
     width: 1280px;
     height: 501px;
-    /* background: #0D1317; */
     display: flex;
     flex-direction: row;
 }
@@ -632,7 +737,6 @@ height: 688.61px;
     margin-top: 40px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .omg {
@@ -681,21 +785,30 @@ height: 688.61px;
     line-height: 30px;
     color: #5B5B5B;
 }
-/* --------------------------------- dawhtsah play bttn */
-#space {
-    margin-left: 110px;
-    z-index: -1;
+/* --------- dawhtsah play bttn */
+#sdr {
+    position: relative;
+    flex: 1;
+    margin-left: 110px; 
 }
 
-#sdr {
-    z-index: -1;
+#playi {
+    position: absolute;
+    flex: 1;
+    left: 40px;
+    bottom: 40px;
 }
-/* ---------------------------------- */
+
+/* --------------- */
 #centr {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+/* ----------------box6---------------- */
+
+/* ----------------box7---------------- */
 
 .hohtuya {
     width: 100vw;
@@ -734,18 +847,22 @@ height: 688.61px;
     margin: 32px;
 }
 
+/* ----------------box7---------------- */
+
+/* ----------------footer---------------- */
+
 .bluefooter {
     width: 100vw;
     height: 463px;
     background: #063255;
     padding-top: 80px;
+    position: relative;
+    flex: 1;
 }
 
 .allmight {
     display: flex;
     flex-direction: row;
-    /* margin-top: 80px; */
-    /* justify-content: space-around; */
 }
 
 #white {
@@ -777,7 +894,6 @@ height: 688.61px;
 }
 
 .onts {
-    /* margin-top: 24px; */
     color: white;
     font-family: "Poppins-Medium', sans-serif";
     font-style: normal;
@@ -851,7 +967,6 @@ height: 688.61px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
     color: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -864,6 +979,21 @@ height: 688.61px;
     display: flex;
     flex-direction: row;
 }
-.zaiii {
+.zaiiiii {
     margin-left: 32px;
 }
+
+#lef {
+    position: absolute;
+    flex: 1;
+    top: 319px;
+}
+
+#righ {
+    position: absolute;
+    flex: 1;
+    left: 1483px;
+    bottom: 130px;
+}
+
+/* ----------------footer---------------- */
