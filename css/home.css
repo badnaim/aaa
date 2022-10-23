@@ -55,14 +55,13 @@ body {
 
 .hwr:hover {
     cursor: pointer;
-    color: #0D1317;
+    color: #53ace7;
 } 
 /* ----------------- */
 .bttn {
     font-family: "Poppins-Bold', sans-serif";
     color: #F58A07;
     margin-top: 6px;
-    position:absolute;
     width: 173px;
     height: 52px;
     top: 10px; 
@@ -71,6 +70,12 @@ body {
     border: none;
     justify-content: center;
     align-items: center;
+}
+
+.bttn:hover {
+    color: white;
+    background-color: #F58A07;
+    cursor: pointer;
 }
 
 
@@ -82,11 +87,9 @@ body {
     align-items: center;
     margin-left: -100px;
 }
-.nav1 {
-    margin-left: 12%;
-}
+
 .nav {
-    width: 1000px;
+    width: 1280px;
     height:80px;
     justify-content:space-between ;
     display: flex;
@@ -100,6 +103,12 @@ body {
     height: auto;
 } 
 
+.ewr {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 /* ----------------nav---------------- */
 
 /* ----------------header---------------- */
@@ -107,8 +116,6 @@ body {
 .picturee {
     height: 703px;
     width: 100vw;
-    left: -5px;
-    top: 84px;
     border-radius: 0px;
     background: #DCEAF5;
 }
@@ -116,18 +123,18 @@ body {
 .neg {
     height: 439px;
     width: 576px;
-    left: 320px;
-    top: 201px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-right: 53px;
+    margin-top: 117px;
 }
 
 .picturee {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.hoyor {
-    align-self: flex-end;
+    /* align-items: center; */
 }
 
 .neg {
@@ -136,12 +143,15 @@ body {
 }
 
 .neg1 {
+    width: 576px;
+    height: 144px;
     font-family: "Poppins-Bold', sans-serif";
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: -0.03em;
     text-align: left;
+    color: #1D3444;
 }
 
 .neg2 {
@@ -174,6 +184,12 @@ body {
     letter-spacing: 0px;
 }
 
+.butt:hover {
+    color: white;
+    background: #1D3444;
+    cursor: pointer;
+}
+
 .scrip {
     font-size: 20px;
     font-weight: 300;
@@ -182,6 +198,12 @@ body {
     line-height: 17px;
     letter-spacing: 0px;
     color: #1D3444;
+}
+
+.scrip:hover {
+    color: #F58A07;
+    cursor: pointer;
+    text-shadow: 0 0 3px #063255;
 }
 
 .neg32 {
@@ -242,6 +264,13 @@ body {
     flex-direction: column;
 }
 
+.hoyor {
+    padding-bottom: 0;
+}
+.yee {
+ margin-top: 58px;
+}
+
 /* ----------------header---------------- */
 
 /* ----------------box1---------------- */
@@ -299,6 +328,12 @@ body {
     font-family: "Poppins-Medium', sans-serif";
     color:#F58A07;
     line-height: 106.5%;
+}
+
+.negyum:hover {
+    color: #063255;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px #063255;
 }
 
 /* ----------------box1---------------- */
@@ -365,6 +400,21 @@ body {
     background: #FFFFFF;
     border-radius: 20px;
     margin-left: 39px;
+}
+
+#onese:hover {
+    box-shadow: 0 0 10px #F58A07;
+    cursor: pointer;
+}
+
+#twose:hover {
+    box-shadow: 0 0 10px #F58A07;
+    cursor: pointer;
+}
+
+#threese:hover {
+    box-shadow: 0 0 10px #F58A07;
+    cursor: pointer;
 }
 
 #se1 {
@@ -631,7 +681,7 @@ padding-right: 5px;
     color: #0D1317;
 }
 .saaralj {
-    margin-left: 15px;
+    margin-left: 48px;
     width: 510px;
     height: 210px;
     font-family: "Poppins-Medium', sans-serif";
@@ -652,6 +702,12 @@ padding-right: 5px;
     font-size: 16px;
     line-height: 106.5%;
     color: #F58A07;
+}
+
+.zaiiii:hover {
+        color: #063255;
+        cursor: pointer;
+        text-shadow: 2px 2px 5px #063255;
 }
 
 /* ----------------box4---------------- */
@@ -706,6 +762,13 @@ padding-right: 5px;
     font-weight: 600;
     font-size: 16px;
     line-height: 106.5%;
+}
+
+#fu2 button:hover {
+  background: #394149;
+  color: #F58A07;
+  cursor: pointer;
+  text-shadow: 0 0 3px #F58A07;
 }
 
 /* ----------------box5---------------- */
@@ -861,6 +924,7 @@ padding-right: 5px;
 }
 
 .allmight {
+    width: 1280px;
     display: flex;
     flex-direction: row;
 }
@@ -910,25 +974,31 @@ padding-right: 5px;
     font-size: 16px;
     line-height: 27px;
 }
+
 #respond {
     width: 342px;
     height: 54px;
     background: white;
     border-radius: 31px;
-    padding-top: 15px;
     margin-top: 24px;
-}
-
-.resin {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 19px;
-    color: #9C9C9C;
-    margin-left: 32px;
-    
+    color: black;
 }
+
+
+input[type=text] {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    padding: 18px 32px 17px;
+  }
 
 .yellwbttn {
     width: 156px;
@@ -946,9 +1016,7 @@ padding-right: 5px;
     margin-top: 16px;
 }
 
-.bt1 {
-    margin-left: 130px;
-}
+
 .taw {
     margin-left: 110px;
 }
@@ -956,13 +1024,11 @@ padding-right: 5px;
     margin-left: 110px;
 }
 .bt4{
-    margin-left: 110px;
+    margin-left: 137px;
 }
 
 .hoyorr {
-    margin-left: 130px;
-    margin-right: 130px;
-    width: auto;
+    width: 1280px;
     font-family: "Poppins-Medium', sans-serif";
     font-style: normal;
     font-weight: 500;
@@ -992,8 +1058,38 @@ padding-right: 5px;
 #righ {
     position: absolute;
     flex: 1;
-    left: 1483px;
+    right: 0;
     bottom: 130px;
 }
+
+.ends {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dorow img:hover {
+    cursor: pointer;
+}
+
+.taw p:hover {
+    color: #F58A07;
+    cursor: pointer;
+}
+
+.bt3 p:hover {
+    color: #F58A07;
+    cursor: pointer;
+}
+
+.yellwbttn:hover {
+    cursor: pointer;
+    background: rgb(248, 98, 98);
+    box-shadow: 0 0 10px white;
+}
+
+
 
 /* ----------------footer---------------- */

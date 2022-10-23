@@ -57,7 +57,7 @@ body {
 
 .hwr:hover {
   cursor: pointer;
-  color: #0D1317;
+  color: #53ace7;
 } 
 /* ----------------- */
 
@@ -65,7 +65,6 @@ body {
   font-family: "Poppins-Bold', sans-serif";
   color: #F58A07;
   margin-top: 6px;
-  position:absolute;
   width: 173px;
   height: 52px;
   top: 10px; 
@@ -76,6 +75,11 @@ body {
   align-items: center;
 }
 
+.bttn:hover {
+  color: white;
+  background-color: #F58A07;
+  cursor: pointer;
+}
 
 .nav2 {
   margin-left: 70%;
@@ -85,11 +89,9 @@ body {
   align-items: center;
   margin-left: -100px;
 }
-.nav1 {
-  margin-left: 12%;
-}
+
 .nav {
-  width: 1000px;
+  width: 1280px;
   height:80px;
   justify-content:space-between ;
   display: flex;
@@ -103,48 +105,36 @@ body {
   height: auto;
 } 
 
+.ewr {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
 /* ----------------nav---------------- */
 
-/* ----------------hoh---------------- */
+/* ----------------main---------------- */
 
-.hoh {
+.jh {
   width: 100vw;
-  height: 749px;
-  background-color: #DCEAF5;
-  display: flex;
-  flex-direction: row;
-  
-}
-
-.hyt {
-  width: 1410px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: 50px;
+  margin-top: 80px;
 }
 
-.neghalf {
-  width: 559px;
-  height: 427px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.zurag {
+  border-radius: 50px;
 }
 
-.hoyorhalf {
-  margin-left: 120px;
-}
-
-#po {
-  border-radius: 20px;
-}
+/* ---------------------------- */
 
 .gurabf {
   display: flex;
   flex-direction: row;
   height: 32px;
   align-items: center;
+  margin-top: 100px;
+  margin-left: 31%;
 }
 
 .hoyorf {
@@ -169,154 +159,58 @@ body {
   opacity: 0.87;
 }
 
-.garcig {
-  width: 527px;
+.qq {
+  margin-bottom: 128px;
+}
+
+/* ------------------------------- */
+
+.tomoo {
+  width: 752px;
   height: 216px;
   font-family: "Poppins-Medium', sans-serif";
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 72px;
   letter-spacing: -0.03em;
   color: #1D3444;
-  margin-top: 24px;
 }
 
-.utgaa {
-  width: 559px;
-  height: 90px;
-  left: 319px;
-  top: 541px;
-  font-family: "Poppins-Medium', sans-serif";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
-  color: #5B5B5B;
-  margin-top: 24px;
-}
-.negyum {
-  width: auto;
-  height: 17px;
-  font-family: "Poppins-ExtraLight', sans-serif";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 106.5%;
-  color: #F58A07;
-  margin-top: 24px;
-}
-
-
-
-/* ----------------hoh---------------- */
-
-/* ----------------all posts---------------- */
-
-/* .tomhuwi {
-  width: 1280px;
-
-} */
-
-.boldd {
-  font-family: "Poppins-Medium', sans-serif";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 31px;
-  line-height: 56px;
-  letter-spacing: -0.03em;
-  text-transform: capitalize;
+.aw {
+  font-size: 30px;
   color: #0D1317;
-  margin-left: 130px;
-  margin-top: 128px;
+  margin-top: 48px;
 }
 
-
-.neeg {
-  width: 400px;
-  height: 230px;
-  
-}
-
-.hooyor {
-  width: 400px;
-  height: 230px;
-  margin-left: 40px;
-}
-
-.guuraw {
-  width: 400px;
-  height: 230px;
-  margin-left: 40px;
-}
-/* ---------------------------------- */
-
-.hohtuya {
-  width: 100vw;
-  height: 600px;
-}
-
-.a {
-  border-radius: 20px;
-  background-color: #EDF7FF;
-  width: 400px;
-  height: 507px;
-}
-
-.border-e {
-  border-radius: 20px 20px 0 0;
-}
-
-.trre {
-  width: 336px;
-  height: 213px;
-  margin: 32px;
-}
-
-.zuragnuud {
-  margin-top: 64px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.zuragnud {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;  
-}
-
-.border-r {
-  width: 400px;
-  height: auto;
-  border-radius: 20px;
-}
-
-.utga {
+.jijig {
+  width: 752px;
   font-family: "Poppins-Medium', sans-serif";
-  height: 84px;
-  width: 336px;
-  left: 321px;
-  font-size: 16px;
-  color: #5B5B5B;
-  margin-top: 16px;
-  margin-bottom: 24px;
-}
-
-.garchig {
-  font-family: "Poppins-Medium', sans-serif";
+  font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5B5B5B;
 }
 
-.negyum {
-  font-family: "Poppins-Medium', sans-serif";
-  color:#F58A07;
-  line-height: 106.5%;
+.qw {
+  margin-top: 24px;
+}
+
+.wer {
+  margin-top: 32px;
 }
 
 
-/* ----------------all posts---------------- */
+.yh {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ----------------main---------------- */
 
 /* ----------------footer---------------- */
 
@@ -330,6 +224,7 @@ body {
 }
 
 .allmight {
+  width: 1280px;
   display: flex;
   flex-direction: row;
 }
@@ -379,24 +274,29 @@ body {
   font-size: 16px;
   line-height: 27px;
 }
+
 #respond {
   width: 342px;
   height: 54px;
   background: white;
   border-radius: 31px;
-  padding-top: 15px;
   margin-top: 24px;
-}
-
-.resin {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 19px;
-  color: #9C9C9C;
-  margin-left: 32px;
-  
+  color: black;
+}
+
+input[type=text] {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  padding: 18px 32px 17px;
 }
 
 .yellwbttn {
@@ -415,9 +315,6 @@ body {
   margin-top: 16px;
 }
 
-.bt1 {
-  margin-left: 130px;
-}
 .taw {
   margin-left: 110px;
 }
@@ -429,9 +326,7 @@ body {
 }
 
 .hoyorr {
-  margin-left: 130px;
-  margin-right: 130px;
-  width: auto;
+  width: 1280px;
   font-family: "Poppins-Medium', sans-serif";
   font-style: normal;
   font-weight: 500;
@@ -461,8 +356,37 @@ body {
 #righ {
   position: absolute;
   flex: 1;
-  left: 1483px;
+  right: 0;
   bottom: 130px;
 }
+
+.ends {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dorow img:hover {
+  cursor: pointer;
+}
+
+.taw p:hover {
+  color: #F58A07;
+  cursor: pointer;
+}
+
+.bt3 p:hover {
+  color: #F58A07;
+  cursor: pointer;
+}
+
+.yellwbttn:hover {
+  cursor: pointer;
+  background: rgb(248, 98, 98);
+  box-shadow: 0 0 10px white;
+}
+
 
 /* ----------------footer---------------- */
