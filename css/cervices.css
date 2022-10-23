@@ -112,7 +112,7 @@ body {
 
 /* ----------------nav---------------- */
 
-/* ----------------head---------------- */
+/* ----------------header---------------- */
 .head {
   margin-top: 108px;
   width: 100vw;
@@ -178,6 +178,11 @@ body {
   /* -----box----- */
 }
 
+.btn:hover {
+  background-color:#394149;
+  cursor: pointer;
+}
+
 .mod {
   margin-left: 45px;
   position: relative;
@@ -197,7 +202,7 @@ body {
   transform: rotate(-180deg);
 }
 
-/* ----------------head---------------- */
+/* ----------------header---------------- */
 
 /* ----------------main---------------- */
 
@@ -544,6 +549,12 @@ main {
   line-height: 106.5%;
 }
 
+.negyum:hover {
+  color: #063255;
+  cursor: pointer;
+  text-shadow: 2px 2px 5px #063255;
+}
+
 .yui {
   width: 583px;
   height: auto;
@@ -732,6 +743,11 @@ input[type=text] {
   cursor: pointer;
   background: rgb(248, 98, 98);
   box-shadow: 0 0 10px white;
+}
+
+.hoyorr p:hover {
+  color: #F58A07;
+  cursor: pointer;
 }
 
 /* ----------------footer---------------- */

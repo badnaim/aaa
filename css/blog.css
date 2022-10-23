@@ -215,16 +215,9 @@ body {
   margin-top: 24px;
 }
 
-
-
 /* ----------------hoh---------------- */
 
 /* ----------------all posts---------------- */
-
-/* .tomhuwi {
-  width: 1280px;
-
-} */
 
 .boldd {
   font-family: "Poppins-Medium', sans-serif";
@@ -323,6 +316,16 @@ body {
   line-height: 106.5%;
 }
 
+#dzur {
+  text-decoration: none;
+  color:#F58A07;
+}
+
+#dzur:hover {
+  color: #063255;
+  cursor: pointer;
+  text-shadow: 2px 2px 5px #063255;
+}
 
 /* ----------------all posts---------------- */
 
@@ -503,5 +506,9 @@ input[type=text] {
   box-shadow: 0 0 10px white;
 }
 
+.hoyorr p:hover {
+  color: #F58A07;
+  cursor: pointer;
+}
 
 /* ----------------footer---------------- */

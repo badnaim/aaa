@@ -881,6 +881,7 @@ padding-right: 5px;
 }
 
 .hohgarchig {
+    width: 1280px;
     font-family: "Poppins-Bold', sans-serif";
     font-style: normal;
     font-weight: 600;
@@ -889,7 +890,6 @@ padding-right: 5px;
     letter-spacing: -0.03em;
     text-transform: capitalize;
     color: #0D1317;
-    width: auto;
     margin-left: 8.5%;
 }
 
@@ -908,6 +908,12 @@ padding-right: 5px;
     width: 336px;
     height: 213px;
     margin: 32px;
+}
+
+.trey {
+    width: 93vw;
+    display: flex;
+    justify-content: center;
 }
 
 /* ----------------box7---------------- */
@@ -1090,6 +1096,9 @@ input[type=text] {
     box-shadow: 0 0 10px white;
 }
 
-
+.hoyorr p:hover {
+    color: #F58A07;
+    cursor: pointer;
+}
 
 /* ----------------footer---------------- */
