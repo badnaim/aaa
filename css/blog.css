@@ -129,7 +129,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-left: 75px; */
 }
 
 .neghalf {
@@ -303,6 +302,7 @@ body {
 
 .utga {
   font-family: Poppins;
+  font-weight: 500;
   height: 84px;
   width: 336px;
   left: 321px;

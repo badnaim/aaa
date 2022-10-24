@@ -137,10 +137,10 @@ body {
 .garchchig {
   width: 561px;
   height: 128px;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 48px;
   line-height: 64px;
   letter-spacing: -0.03em;
   color: #1D3444;
@@ -150,7 +150,7 @@ body {
   margin-top: 24px;
   width: 524px;
   height: 30px;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

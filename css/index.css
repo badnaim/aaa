@@ -147,11 +147,11 @@ body {
 }
 
 .neg1 {
-    width: 576px;
+    width: 590px;
     height: 144px;
     line-height: 56px;
     font-family: Poppins;
-    font-size: 31px;
+    font-size: 64px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: -0.03em;
@@ -164,7 +164,7 @@ body {
     font-family: Poppins;
     font-weight: 500;
     color: #5B5B5B;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 15px;
 }
 
@@ -238,7 +238,7 @@ body {
     font-family: Poppins;
     width: 735px;
     height: auto;
-    font-size: 35px;
+    font-size: 48px;
     line-height: 56px;
     font-weight: 600;
     line-height: 56px;
@@ -250,7 +250,7 @@ body {
 .sec2 {
     font-family: Poppins; 
     font-weight: 500;
-    font-size: 15px;
+    font-size: 18px;
     width: 630px;
     height: auto;
     margin-top:30px;
@@ -321,7 +321,7 @@ body {
     font-family: Poppins;
     font-weight: 500;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 16px;
     height: 84px;
     width: 336px;
     left: 321px;
@@ -346,7 +346,7 @@ body {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 106.5%;
     margin-bottom: 32px;
 }
@@ -378,7 +378,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 36px;
     line-height: 44px;
     letter-spacing: -0.03em;
     color: #0D1317;
@@ -502,7 +502,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 48px;
     line-height: 56px;
     letter-spacing: -0.03em;
     color: #0D1317;
@@ -615,10 +615,9 @@ padding-right: 5px;
 }
 
 .hohongo {
-
     margin-bottom: 128px;
     width: 1274px;
-    height: 682px;
+    height: 695px;
     background: #EDF7FF;
     border-radius: 20px;
 }
@@ -649,10 +648,10 @@ padding-right: 5px;
     background: #FFFFFF;
     border-radius: 31px;
     border: none;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: inherit;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
     color: #F58A07;
 
@@ -664,10 +663,10 @@ padding-right: 5px;
     height: 40px;
     border: 1px solid #A8BCCC;
     border-radius: 31px;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: inherit;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
     color: rgba(6, 50, 85, 0.3);
     background: #EDF7FF;
@@ -678,10 +677,10 @@ padding-right: 5px;
     height: 40px;
     border: 1px solid #A8BCCC;
     border-radius: 31px;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: inherit;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
     color: rgba(6, 50, 85, 0.3);
     background: #EDF7FF;
@@ -690,7 +689,6 @@ padding-right: 5px;
 .hoyorhes {
     display: flex;
     flex-direction: row;
-    
 }
 
 .hoyorhes1 {

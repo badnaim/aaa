@@ -116,8 +116,9 @@ body {
 /* ----------------nav---------------- */
 
 /* ----------------header---------------- */
+
 .fll {
-  width: 91vw;
+  width: 87vw;
   display: flex;
   justify-content: center;
   margin-top: 122px;
