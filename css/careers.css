@@ -329,7 +329,14 @@ body {
   padding-top: 96px;
 }
 
+.mlp {
+  width: 93vw;
+  display: flex;
+  justify-content: center;
+}
+
 .hohgarchig {
+  width: 1280px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -338,7 +345,6 @@ body {
   letter-spacing: -0.03em;
   text-transform: capitalize;
   color: #0D1317;
-  width: auto;
   margin-left: 8.5%;
 }
 

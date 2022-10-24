@@ -129,13 +129,18 @@ body {
 
 /* ---------------------------- */
 
+.mlp {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
 .gurabf {
+  width: 752px;
   display: flex;
   flex-direction: row;
   height: 32px;
-  align-items: center;
   margin-top: 100px;
-  margin-left: 31%;
 }
 
 .hoyorf {

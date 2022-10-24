@@ -125,11 +125,11 @@ body {
 }
 
 .hyt {
-  width: 1410px;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 75px;
+  /* margin-left: 75px; */
 }
 
 .neghalf {
@@ -219,7 +219,14 @@ body {
 
 /* ----------------all posts---------------- */
 
+.mlp {
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+}
+
 .boldd {
+  width: 1280px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;

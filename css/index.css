@@ -122,8 +122,8 @@ body {
 .picturee {
     height: 703px;
     width: 100vw;
-    border-radius: 0px;
     background: #DCEAF5;
+    padding-left: 80px;
 }
 
 .neg {
