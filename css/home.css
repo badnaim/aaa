@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Poppins', sans-serif"; */
 }
 
 body {
@@ -30,7 +29,7 @@ body {
 /* ----------------nav---------------- */
 
 .mf {
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: Poppins;
     margin-top: 0;
     position: static;
     margin-left: 30px;
@@ -41,6 +40,7 @@ body {
     text-align: left;
     align-items: center;
     font-size: medium;
+    color: #394149;
 }
 
 .nav {
@@ -59,7 +59,9 @@ body {
 } 
 /* ----------------- */
 .bttn {
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
     color: #F58A07;
     margin-top: 6px;
     width: 173px;
@@ -80,6 +82,10 @@ body {
 
 
 .nav2 {
+ 
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
     margin-left: 70%;
     display: flex;
     flex-direction: row;
@@ -125,7 +131,6 @@ body {
     width: 576px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     margin-right: 53px;
     margin-top: 117px;
@@ -134,7 +139,6 @@ body {
 .picturee {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .neg {
@@ -145,8 +149,9 @@ body {
 .neg1 {
     width: 576px;
     height: 144px;
-    font-family: "Poppins-Bold', sans-serif";
-    font-size: 30px;
+    line-height: 56px;
+    font-family: Poppins;
+    font-size: 31px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: -0.03em;
@@ -155,14 +160,16 @@ body {
 }
 
 .neg2 {
-    font-family: "Poppins-Medium', sans-serif";
+    width: 571px;
+    font-family: Poppins;
+    font-weight: 500;
     color: #5B5B5B;
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 15px;
 }
 
 .neg3 {
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: Poppins;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -218,7 +225,7 @@ body {
     line-height: 30px;
     letter-spacing: 0px;
     text-align: left;
-    font-family: "Poppins-ExtraLight', sans-serif";
+    font-family: Poppins;
 }
 
 .asa {
@@ -228,10 +235,11 @@ body {
 }
 
 .sec1 {
-    font-family: "Poppins-Bold', sans-serif";
-    width: 600px;
+    font-family: Poppins;
+    width: 735px;
     height: auto;
-    font-size: 23px;
+    font-size: 35px;
+    line-height: 56px;
     font-weight: 600;
     line-height: 56px;
     letter-spacing: -0.03em;
@@ -240,12 +248,13 @@ body {
 }
 
 .sec2 {
-    font-family: "Poppins-Medium', sans-serif"; 
+    font-family: Poppins; 
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     width: 630px;
     height: auto;
     margin-top:30px;
+    color: #5B5B5B;
 }
 
 .box1 {
@@ -309,25 +318,37 @@ body {
 }
 
 .utga {
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 14px;
     height: 84px;
     width: 336px;
     left: 321px;
-    color: #5B5B5B;
+    color: #1D3444;
     margin-top: 16px;
     margin-bottom: 24px;
 }
 
 .garchig {
-    font-family: "Poppins-Medium', sans-serif";
+    margin-top: 32px;
+    color: #0D1317;
+    font-family: Poppins;
+    font-size: 24px;
+    line-height: 106.5%;
     font-weight: 500;
     font-size: 24px;
 }
 
 .negyum {
-    font-family: "Poppins-Medium', sans-serif";
     color:#F58A07;
     line-height: 106.5%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 106.5%;
+    margin-bottom: 32px;
 }
 
 .negyum:hover {
@@ -354,22 +375,29 @@ body {
 }
 
 #o {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
     margin-top: 96px;
     width: 619px;
     height: 132px;
-    font-weight: 600;
-    font-size: 24px;
 }
 
 #oi {
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
     color: #1D3444;
     margin-left: 40px;
     margin-top: 102px;
     width: 620px;
     height: 102px;
-    font-weight: 500;
-    font-size: 18px;
 }
 
 .threesec {
@@ -423,18 +451,24 @@ body {
 }
 
 #se2 {
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 600;
     font-size: 24px;
+    line-height: 106.5%;
+    letter-spacing: -0.03em;
+    color: #0D1317;
     margin-left: 39px;
     margin-top: 20px;
-    color: #0D1317;
-
 }
 
 #se3 {
     color: #5B5B5B;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
     margin-left: 39px;
     margin-top: 20px;
 }
@@ -465,10 +499,15 @@ body {
 }
 
 #contt1 {
-    font-family: "Poppins-Bold', sans-serif";
-    font-size: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 600;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
     color: #0D1317;
+    width: 596px;
+    height: 157px;
 }
 #contt h1 {
     padding-right: 5px;
@@ -481,7 +520,10 @@ body {
     margin-top: 32px;
     margin-bottom: 48px;
     color: #5B5B5B;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
 
 }
 
@@ -502,20 +544,22 @@ body {
 }
 
 #garchi {
-    font-family: "Poppins-Bold', sans-serif";
-    font-size: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 600;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 106.5%;
+    letter-spacing: -0.03em;
+    color: #0D1317;
     letter-spacing: -0.03em;
     text-align: left;
     margin-bottom: 16px;
-    color: #0D1317;
 }
 
 #ogulbr {
     width: 270px;
     height: 84px;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -592,7 +636,7 @@ padding-right: 5px;
 }
 
 .gurabb {
-    margin-left: 48px;
+    margin-left: 30px;
     margin-top: 48px;
     width: 50%;
     display: flex;
@@ -656,7 +700,6 @@ padding-right: 5px;
 .hoyorhes2 {
     width: 50%;
     display: flex;
-    /* justify-content: center; */
     position: relative;
     flex: 1;
     margin-left: 100px;
@@ -672,7 +715,7 @@ padding-right: 5px;
     margin-left: 48px;
     width: 572px;
     height: 168px;
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -681,22 +724,24 @@ padding-right: 5px;
     color: #0D1317;
 }
 .saaralj {
+    margin-top: 25px;
     margin-left: 48px;
     width: 510px;
     height: 210px;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: #5B5B5B;
 }
 .zaiii {
-    margin-top: 20px;
+    margin-top: 39px;
     
 }
 .zaiiii {
+    margin-top: 35px;
     margin-left: 48px;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -739,7 +784,7 @@ padding-right: 5px;
 #fu2 h1 {
     width: 532px;
     height: 168px;
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -757,7 +802,7 @@ padding-right: 5px;
     border-radius: 31px;
     border: none;
     margin-left: 125px;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -808,7 +853,7 @@ padding-right: 5px;
 }
 
 #omg1 {
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -816,7 +861,7 @@ padding-right: 5px;
     color: #063255;
 }
 #omg2 {
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -827,7 +872,7 @@ padding-right: 5px;
 #i1 {
     width: 550px;
     height: 112px;
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -841,7 +886,7 @@ padding-right: 5px;
 #i2 {
     width: 550px;
     height: 90px;
-    font-family:"Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -882,7 +927,7 @@ padding-right: 5px;
 
 .hohgarchig {
     width: 1280px;
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 31px;
@@ -907,7 +952,8 @@ padding-right: 5px;
 .trre {
     width: 336px;
     height: 213px;
-    margin: 32px;
+    margin-left: 32px;
+    margin-top: 18px;
 }
 
 .trey {
@@ -915,6 +961,18 @@ padding-right: 5px;
     display: flex;
     justify-content: center;
 }
+
+.garchigq {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+
 
 /* ----------------box7---------------- */
 
@@ -939,7 +997,7 @@ padding-right: 5px;
     width: 351px;
     height: 88px;
     color: white;
-    font-family: "Poppins-Bold', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -965,7 +1023,7 @@ padding-right: 5px;
 
 .onts {
     color: white;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -974,7 +1032,8 @@ padding-right: 5px;
 .busad {
     margin-top: 16px;
     color: white;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
+    font-style: normal;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -987,7 +1046,7 @@ padding-right: 5px;
     background: white;
     border-radius: 31px;
     margin-top: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -997,6 +1056,7 @@ padding-right: 5px;
 
 
 input[type=text] {
+    font-family: Poppins;
     width: 100%;
     border: none;
     border-radius: 4px;
@@ -1012,7 +1072,7 @@ input[type=text] {
     background: #F58A07;
     border-radius: 31px;
     border: none;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1035,7 +1095,7 @@ input[type=text] {
 
 .hoyorr {
     width: 1280px;
-    font-family: "Poppins-Medium', sans-serif";
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

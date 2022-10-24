@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Poppins', sans-serif"; */
 }
 
 body {
@@ -30,7 +29,7 @@ body {
 /* ----------------nav---------------- */
 
 .mf {
-  font-family: "Poppins-Bold', sans-serif";
+  font-family: Poppins;
   margin-top: 0;
   position: static;
   margin-left: 30px;
@@ -40,7 +39,6 @@ body {
   letter-spacing: 0px;
   text-align: left;
   align-items: center;
-  /* margin-top: 11px; */
   color: #394149;
   font-size: medium;
 }
@@ -62,7 +60,10 @@ body {
 /* ----------------- */
 
 .bttn {
-  font-family: "Poppins-Bold', sans-serif";
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
   color: #F58A07;
   margin-top: 6px;
   width: 173px;
@@ -123,7 +124,6 @@ body {
 }
 
 .bx {
-  /* margin-left: 8%; */
   width: 1086px;
 }
 
@@ -137,21 +137,22 @@ body {
 #bldd {
   width: 640px;
   height: 76px;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
+  font-weight: 600;
   font-style: normal;
-  font-size: 25px;
+  font-size: 64px;
   line-height: 72px;
   letter-spacing: -0.03em;
   color: #1D3444;
 }
 
 #yh {
-  width: 169px;
+  width: 180px;
   height: 30px;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.03em;
   color: #0D1317;
@@ -161,7 +162,7 @@ body {
 #th {
   width: auto;
   height: 60px;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -190,7 +191,6 @@ content {
   height: 441px;
   background: rgba(193, 228, 255, 0.3);
   border-radius: 20px;
-  /* margin-left: 165px; */
   display: flex;
   flex-direction:row;
 }
@@ -227,7 +227,7 @@ content {
 .xc {
   width: 842px;
   height: 308px;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -249,10 +249,10 @@ content {
 .opra {
   width: 247px;
   height: 56px;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 48px;
   line-height: 56px;
   letter-spacing: -0.03em;
   color: #0D1317;
@@ -362,7 +362,7 @@ content {
   width: 351px;
   height: 88px;
   color: white;
-  font-family: "Poppins-Bold', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -388,7 +388,7 @@ content {
 
 .onts {
   color: white;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -397,7 +397,8 @@ content {
 .busad {
   margin-top: 16px;
   color: white;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
+  font-style: normal;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -416,9 +417,14 @@ content {
   font-size: 18px;
   line-height: 19px;
   color: black;
+}
+
+
+form input {
+  font-family: Poppins;
   width: 100%;
   border: none;
-  border-radius: 31px;
+  border-radius: 4px;
   font-size: 16px;
   background-color: white;
   background-position: 10px 10px; 
@@ -431,7 +437,7 @@ content {
   background: #F58A07;
   border-radius: 31px;
   border: none;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -441,6 +447,7 @@ content {
   margin-top: 16px;
 }
 
+
 .taw {
   margin-left: 110px;
 }
@@ -448,12 +455,12 @@ content {
   margin-left: 110px;
 }
 .bt4{
-  margin-left: 110px;
+  margin-left: 137px;
 }
 
 .hoyorr {
   width: 1280px;
-  font-family: "Poppins-Medium', sans-serif";
+  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -512,6 +519,11 @@ content {
   cursor: pointer;
   background: rgb(248, 98, 98);
   box-shadow: 0 0 10px white;
+}
+
+.hoyorr p:hover {
+  color: #F58A07;
+  cursor: pointer;
 }
 
 /* ----------------footer---------------- */
